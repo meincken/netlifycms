@@ -1,0 +1,20 @@
+backend:
+  name: test-repo
+
+media_folder: media_folder
+
+collections:
+  - name: post
+    label: Post
+    folder: posts
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: body, label: Body, widget: markdown}
+  - name: lard
+    label: Lard
+    folder: lard
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: body, label: Body, widget: markdown}
